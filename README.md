@@ -34,7 +34,7 @@ The visuals below shows the confusion matrix obtained through the XGBClassifier 
 XGBClassifier had a higher auc (0.8865663748016688) compared to the RandomForest (0.8662572721396251) which also contributed in the decision making process of the better model.
 <img src="pictures/output2.png" />
 
-More of the modelling and data preparation can be found in the notebook.ipynb
+More of the modelling and data preparation can be found in the [notebook.ipynb](https://github.com/JamesMbeti/SYRIA-TEL-CHURN-PREDICTION/blob/main/notebook.ipynb)
 
 ### Conclusion
 After tuning the models I settled with the tuned XGBClassifier as it improved on the recall rate as the main goal is being able to identify the people likely to churn even if it means having more false positives  which won't affect much as we'll still be remarketing to our customers.
