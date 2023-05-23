@@ -39,7 +39,7 @@ More of the modelling and data preparation can be found in the [notebook.ipynb](
 ### Conclusion
 After tuning the models I settled with the tuned XGBClassifier as it improved on the recall rate as the main goal is being able to identify the people likely to churn even if it means having more false positives  which won't affect much as we'll still be remarketing to our customers.
 
-The ```optimal values``` are:
+The ```optimal values``` found after tuning are:
 
 {'learning_rate': 0.5,
  'max_depth': 7,
